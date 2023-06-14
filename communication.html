@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+   <div class="icon2">
+    <img src="./images/images.png">
+    <p>Administrator</p>
+    
+</div>
+<div class="container">
+    <input type="text" class="search-bar" placeholder="Search...">
+</div>
+
+<div class="tabs">
+    <div class="tab tab-home">
+        <a href="#home">Home</a>
+    </div>
+    <div class="tab tab-information">
+        <a href="#information">Information</a>
+    </div>
+    <div class="tab tab-online-portal">
+        <a href="#online-portal">Online Portal</a>
+    </div>
+    <div  class="tab-communication">
+        <a href="#communication">Communication</a>
+        
+    </div>
+    <div class="communication">
+        <img src="./images/message.png" onclick="openMessage()">
+        <span>Message US</span>
+        <img src="./images/announcement.png" onclick="openAnnouncement()">
+        <span>Announcement</span>
+        <div>
+        <img src="./images/forum.png" onclick="openForums()">
+        <span>Forums</span>
+        <img src="./images/discussion.png" onclick="openDiscussions()">
+        <span>Discussions</span>
+        <img src="./images/feedback.png" onclick="openFeedbacks()">
+        <span>Feedbacks</span>
+    </div>
+</div>
+
+<div class="overlay" id="MessageOverlay">
+    <div class="modal">
+      <form>
+        <textarea rows="5" cols="50" placeholder="Type your message here..."></textarea><br>
+        <input id="post-button" type="submit" value="Send">
+      </form>
+      <span class="close-button" onclick="closeMessage()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="AnnouncementOverlay">
+  <div class="modal">
+    <form>
+      <textarea rows="5" cols="50" placeholder="Type your announcement here..."></textarea><br>
+      <input id="post-button" type="submit" value="Post">
+    </form>
+    <span class="close-button" onclick="closeAnnouncement()">X</span>
+  </div>
+</div>
+
+<div class="overlay" id="ForumsOverlay">
+    <div class="modal">
+      <form>
+        <div class="container2">
+        <textarea class="text" placeholder="Hey!, What's Up? Can you help me?"></textarea>
+        <textarea class="text2" placeholder="Enter your forum here..."></textarea>
+        <input id="post-button2" type="submit" value="Send">
+    </div>
+      </form>
+      <span class="close-button" onclick="closeForums()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="DiscussionsOverlay">
+    <div class="modal">
+      <form>
+        <div class="icon3">
+        <img src="./images/person.png">
+        <img src="./images/person.png">
+        <img src="./images/person.png">
+        <img src="./images/plus.png">
+    </div>
+        <textarea rows="5" cols="50" placeholder="What's new?"></textarea><br>
+        <textarea   rows="1" cols="50" placeholder="Enter your discussion here..."></textarea>
+        <input id="post-button2" type="submit" value="Send">
+      </form>
+      <span class="close-button" onclick="closeDiscussions()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="FeedbacksOverlay">
+    <div class="modal">
+      <form>
+        <p>How would you rate this?</p>
+        <div class="icon3">
+            
+            <img src="./images/star1.png">
+            <img src="./images/star.png">
+            <img src="./images/star.png">
+            <img src="./images/star.png">
+            <img src="./images/star.png">
+        </div>
+        <textarea rows="5" cols="50" placeholder="Write your comment here..."></textarea><br>
+        <input id="post-button" type="submit" value="Send">
+      </form>
+      <span class="close-button" onclick="closeFeedbacks()">X</span>
+    </div>
+  </div>
+
+
+<script src="./script.js"></script>
+</body>
+</html>
