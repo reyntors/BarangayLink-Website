@@ -1,0 +1,171 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: rgb(230, 228, 228);
+    
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  h1 {
+    text-align: center;
+  }
+  .icon1{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 7%;
+  }
+  img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    padding-left: 7%;
+    padding-top: 7%;
+    margin-left: 7%;
+  }
+
+  
+  
+  form {
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #415f83; 
+  }
+  .admin {
+    
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 70px;
+    border-radius: 10px;
+    background-color: #b5cbe7; 
+    width: 30%;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    margin-top: 5%;
+  }
+  
+
+  
+
+  #password{
+    margin-top: 3%;
+
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Modal styles */
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    position: relative;
+  }
+  
+
+  /* Close button styles */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  textarea{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 250px;
+    margin-top: 5px;
+  }
+  #textarea1{
+    background-color: white;
+    border-radius: 5px;
+    max-width: 250px;
+    padding: 5px;
+    width: 100%;
+    height: 20px;
+    resize: none;
+  }
+
+  
+
+  #post-button{
+    position: relative;
+    bottom: 10px;
+    left: 83px;
+    margin-top: 10%;
+    
+  }
+  
+  .request-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+ 
+  
+
+  .request-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .request-item p {
+    margin: 0;
+  }
+
+  .image-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .image-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .image-item p {
+    margin: 0;
+  }
+  

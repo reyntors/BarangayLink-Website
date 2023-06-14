@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <h1>Administrator Home</h1>
+    <div class="admin">
+        
+        <div class="image-item" onclick="openNews()">
+          <img src="./images/news.png">
+          <p>News</p>
+        </div>
+        <div class="image-item" onclick="openEvent()">
+          <img src="./images/events.png">
+          <p>Events</p>
+        </div>
+        <div class="image-item" onclick="openAdvisory()">
+          <img src="./images/advisory.png">
+          <p>Advisory</p>
+        </div>
+        <div class="image-item" onclick="openUpdates()">
+          <img src="./images/updates.png">
+          <p>Updates</p>
+        </div>
+        <div class="image-item" onclick="openRequest()">
+          <img src="./images/request.png">
+          <p>Requests</p>
+        </div>
+        <div class="image-item" onclick="openAppointment()">
+          <img src="./images/appointment.png">
+          <p>Appointments</p>
+        </div>
+      </div>
+      
+
+  <div class="overlay" id="newsOverlay">
+    <div class="modal">
+      <h1>News Message</h1>
+      <form>
+        <textarea rows="5" cols="50" placeholder="Write News here..."></textarea><br>
+        <input id="post-button" type="submit" value="Post">
+      </form>
+      <span class="close-button" onclick="closeNews()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="eventOverlay">
+    <div class="modal">
+      <h1>Events</h1>
+      <form>
+        <textarea id="textarea1" rows="5" cols="50" placeholder="Title of event..."></textarea><br>
+        <textarea id="textarea1" rows="5" cols="50" placeholder="Date of event..."></textarea><br>
+        <textarea rows="5" cols="50" placeholder="Message..."></textarea>
+        <input id="post-button" type="submit" value="Post">
+      </form>
+      <span class="close-button" onclick="closeEvent()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="advisoryOverlay">
+    <div class="modal">
+      <h1>Advisory</h1>
+      <form>
+        <textarea rows="5" cols="50" placeholder="Write Advisory here..."></textarea>
+        <input id="post-button" type="submit" value="Post">
+      </form>
+      <span class="close-button" onclick="closeAdvisory()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="UpdatesOverlay">
+    <div class="modal">
+      <h1>Updates</h1>
+      <form>
+        <textarea rows="5" cols="50" placeholder="Write Updates here..."></textarea>
+        <input id="post-button" type="submit" value="Post">
+      </form>
+      <span class="close-button" onclick="closeUpdates()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="RequestOverlay">
+    <div class="modal">
+      <h1>Requests</h1>
+      <div class="request-item">
+        <img src="./images/images.png">
+        <p>User1 Request for Summon for meeting!</p> 
+      </div>
+      <div class="request-item">
+        <img src="./images/images.png">
+        <p>User2 Request for Brgy.Clearance.</p> 
+        
+      </div>
+      <div class="request-item">
+        <img src="./images/images.png">
+        <p>User3 Request for Certificate Indigency.</p> 
+        
+      </div>
+      
+      <span class="close-button" onclick="closeRequest()">X</span>
+    </div>
+  </div>
+
+  <div class="overlay" id="AppointmentOverlay">
+    <div class="modal">
+      <h1>Appointments</h1>
+      <div class="request-item">
+        <img src="./images/images.png"> 
+        <p><strong>June 14, 2023 </strong><br>User1 Request for Summon for meeting!</p> 
+      </div>
+      <div class="request-item">
+        <img src="./images/images.png">
+        <p><strong>June 15, 2023 </strong><br>User2 Request for Brgy.Clearance.</p> 
+        
+      </div>
+      <div class="request-item">
+        <img src="./images/images.png">
+        <p><strong>June 16, 2023 </strong><br>User3 Request for Certificate Indigency.</p> 
+        
+      </div>
+      
+      <span class="close-button" onclick="closeAppointment()">X</span>
+    </div>
+  </div>
+<script src="./script.js"></script>
+</body>
+
+</html>
