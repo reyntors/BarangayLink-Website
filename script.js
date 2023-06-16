@@ -97,4 +97,3 @@ function closeFeedbacks() {
     var overlay = document.getElementById("FeedbacksOverlay");
     overlay.style.display = "none";
   }
-
