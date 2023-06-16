@@ -1,0 +1,579 @@
+ body{
+  background-color: #072E33;
+ }
+
+ /* Center the navigation */
+    ul.nav {
+      display: flex;
+      justify-content: center;
+      list-style-type: none;
+      padding: 0;
+
+    }
+
+    ul.nav li {
+      margin: 0 10px;
+    }
+
+    .nav li a {
+    color: white; 
+    font-size: 20px; /* Increase the font size to 18 pixels */
+  }
+
+.rectangle {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #eaeaea;
+  padding: 10px;
+}
+
+.rectangle .logout-icon {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+
+.rectangle .circle {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rectangle .circle i {
+  font-size: 18px;
+}
+
+.circle {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.circle img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.rectangle .search-bar {
+   margin-left: auto;
+  border: none;
+  padding: 5px;
+  width: 200px;
+
+}
+
+    /* Search bar styling */
+    .search-bar {
+      width: 200px;
+      height: 30px;
+      border: 1px solid #aaa;
+      border-radius: 5px;
+      padding: 5px;
+
+    }
+    .overall-div-home{
+      height: 500px;
+      border: 1px solid #aaa;
+      padding: 10px;
+    }
+
+    /* Announcement section */
+    .announcement-section {
+      margin-left: 20px;
+      height: 400px;
+      width: 550px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      overflow: scroll;
+      border-radius: 5px;
+    }
+
+    .for-announcement h2{
+      color: white;
+    }
+    
+    /* Individual announcement div */
+    .announcement-div {
+      background-color: #ccc;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+
+    /* Event section */
+    .event-section {
+      margin-left: 20px;
+      height: 150px;
+      width: 630px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      overflow: scroll;
+      border-radius: 5px;
+    }
+    
+    /* Individual event div */
+    .event-div {
+      background-color: #ccc;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .for-event{
+      float: right;
+      margin-top: -490px;
+    }
+
+    /* News section */
+    .news-section {
+      margin-left: 20px;
+      height: 150px;
+      width: 630px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      overflow: scroll;
+      border-radius: 5px;
+    }
+    
+    /* Individual news div */
+    .news-div {
+      background-color: #ccc;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+    }
+    .for-news{
+      float: right;
+      margin-top: -250px;
+    }
+
+    /* for information*/
+
+    /* Advisory section */
+    .advisory-section {
+      margin-left: 90px;
+      height: 400px;
+      width: 500px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      overflow: scroll;
+      border-radius: 5px;
+    }
+
+    /* Event section */
+    .communityUpdate-section {
+      margin-right: 90px;
+      height: 400px;
+      width: 500px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      overflow: scroll;
+      border-radius: 5px;
+    }
+    
+    .for-communityUpdate{
+      float: right;
+      margin-top: -510px;
+    }
+
+    /* Request section */
+    .request-section {
+      margin-right: 20px;
+      height: 380px;
+      width: 380px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+    
+    .barangay-request-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .barangay-request-form label {
+    font-weight: bold;
+  }
+
+  .barangay-request-form input[type="text"],
+  .barangay-request-form textarea {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .barangay-request-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+      /* Pay Bills section */
+    .payBill-section {
+      margin-right: 10px;
+      height: 380px;
+      width: 380px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+    }
+    
+    /* Individual payBill div */
+    .payBill-div {
+      background-color: #ccc;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+
+    }
+
+     .for-payBill{
+      float: right;
+      margin-top: -468px;
+    }
+
+    .payBill-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    overflow: scroll;
+  }
+
+  .payBill-section img {
+    width: 50px;
+    height: 50px;
+    margin-left: 90px;
+  }
+
+  .payBill-section label {
+    font-weight: bold;
+  }
+
+  .payBill-section input[type="text"] {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+ .payBill-section img {
+    width: 140px;
+    height: 140px;
+  }
+  .payBill-section input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+
+     /* Appointment section */
+    .appointment-section {
+      margin-left: 470px;
+      height: 380px;
+      width: 380px;
+      border: 1px solid #aaa;
+      padding: 10px;
+      background-color: #f0f0f0;
+      border-radius: 5px;
+      overflow: scroll;
+    }
+    
+    /* Individual payBill div */
+    .appointment-div {
+      background-color: #ccc;
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 10px;
+
+    }
+
+     .for-appointment{
+        margin-top: -510px;
+    }
+
+    .appointment-div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .appointment-div input[type="date"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .appointment-div button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+   .appointment-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    text-align: center;
+  }
+
+  .appointment-form label {
+    font-weight: bold;
+  }
+
+  .appointment-form input[type="text"],
+  .appointment-form input[type="email"],
+  .appointment-form input[type="datetime-local"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  .appointment-form input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .icon1{
+    width: 50px;
+    height: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 7%;
+  }
+  .icon2 {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 0;
+    margin-top: 10px;
+    margin-left: 2px;
+  }
+  .icon3 {
+    width: 5px;
+    height: 5px;
+    display: flex;
+    margin-bottom: 16%;
+  }
+
+  img{
+    width: 60px;
+    height: 60px;
+    margin: 0 auto;
+    padding-left: 7%;
+    padding-top: 7%;
+    margin-left: 7%;
+  }
+ 
+  
+  
+  .comForm {
+    max-width: 350px;
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #415f83; 
+  }
+  .admin {
+    
+    margin: 0 auto;
+    border: 1px solid black;
+    padding: 70px;
+    border-radius: 10px;
+    background-color: #b5cbe7; 
+    width: 30%;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    
+  }
+  
+  input[type="submit"] {
+    width: 50%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin: 0 auto;
+    cursor: pointer;
+    display: block;
+    margin-top: 5%;
+  }
+  
+
+  
+
+  #password{
+    margin-top: 3%;
+
+  }
+
+  .overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: none;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* Modal styles */
+  .modal {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    max-width: 400px;
+    position: relative;
+  }
+  
+
+  /* Close button styles */
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+  }
+
+  textarea{
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+    max-width: 250px;
+    margin-top: 5px;
+  }
+  #textarea1{
+    background-color: white;
+    border-radius: 5px;
+    max-width: 250px;
+    padding: 5px;
+    width: 100%;
+    height: 20px;
+    resize: none;
+  }
+
+  
+
+  #post-button{
+    position: relative;
+    bottom: 10px;
+    left: 83px;
+    margin-top: 10%;
+    
+  }
+  
+  .request-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+ 
+  
+
+  .request-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+
+  .request-item p {
+    margin: 0;
+  }
+
+  .image-item {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .image-item img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+  }
+  
+  .image-item p {
+    margin: 0;
+  }
+
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+.communication {
+    background-color: rgb(124, 120, 120);
+    padding: 30px;
+    padding-bottom: 18%;
+    padding-right: 10%;
+    margin-right: 150px;
+    border-radius: 10px;
+    transform: translateX(-2%) translateY(-2%);
+}
+
+.text{
+    width: 300px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+#post-button2{
+    margin-left: 70%;
+    width: 20%;
+}
+
+.text2 {
+    
+    width: 71%;
+    height: 15px;
+    border-radius: 10px;
+  }
+
+
+
+
+  
