@@ -3,13 +3,20 @@
 <head>
   <title>Administration Login</title>
   <link rel="stylesheet" type="text/css" href="styles.css">
+  
+
+  <script>
+  function redirectToOtherFile() {
+    window.location.href = "login-user.html";
+  }
+</script>
 </head>
-<body>
+
+<body> 
   
-  
-  <form action="index.html" method="post">
-    <img class = "icon1" src="C:\Users\Reynard Z. Torculas\OneDrive\Documents\BarangayLink Project\images\images.png">
-  <h3>Administrator</h3>
+  <form action="adminhome.html" method="post">
+    <img class = "icon1" src="./images/images.png" onclick="redirectToOtherFile()">
+  <h3>Login as Administrator</h3>
     <p>Username</p>
     <input id="username" type="text" name="username" placeholder="Enter your Username here..." required> <br>
     <p>Password</p>
