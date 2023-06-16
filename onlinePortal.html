@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+  <div class="rectangle">
+      <a href="login-user.html" class="logout-icon">
+        <i class="fas fa-arrow-left"></i>
+        <i class="fas fa-user"></i>
+      </a>
+      <div class="circle">
+        <img src="./images/person.png" alt="Image">
+      </div>
+      <input type="text" class="search-bar" placeholder="Search">
+</div>
+  <ul class="nav">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="information.html">Information</a></li>
+    <li><a href="#">Online Portal</a></li>
+    <li><a href="communication.html">Communication</a></li>
+  </ul>
+
+
+  <div class="overall-div-home">
+
+    <div class="for-request">
+            <h2 style="margin-left: 170px; color:white">Requests</h2>
+            <div class="request-section">
+             <form class="barangay-request-form">
+                  <label for="fullName">Full Name:</label>
+                  <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+                  <label for="contactDetails">Contact Details:</label>
+                  <input type="email" id="contactDetails" name="contactDetails" placeholder="Enter your email address" required>
+
+                  <label for="requestType">Request Type:</label>
+                  <select id="requestType" name="requestType" required>
+                    <option value="">Select request type</option>
+                    <option value="Residence Certificate">Residence Certificate</option>
+                    <option value="Business Permit">Business Permit</option>
+                    <option value="Barangay Clearance">Barangay Clearance</option>
+                    <option value="Complaint">Complaint</option>
+                    <option value="Other">Other</option>
+                  </select>
+
+                  <label for="requestDetails">Request Details:</label>
+                  <textarea id="requestDetails" name="requestDetails" rows="5" placeholder="Enter the details of your request" required></textarea>
+
+                  <input type="submit" value="Submit Request">
+                </form>
+            </div>
+      </div>
+      <div class="for-payBill">
+            <h2 style="margin-left: 170px; color:white">Pay Bills</h2>
+      
+              <div class="payBill-section">
+                  <img src="./images/qr.jpg" alt="Payment Icon">
+                  <label for="senderName">Name of Sender:</label>
+                  <input type="text" id="senderName" name="senderName" placeholder="Enter your name">
+                  <label for="transactionPurpose">Purpose of Transaction:</label>
+                  <input type="text" id="transactionPurpose" name="transactionPurpose" placeholder="Enter the purpose">
+                  <label for="referenceNumber">Reference Number:</label>
+                  <input type="text" id="referenceNumber" name="referenceNumber" placeholder="Enter the reference number">
+                  <input type="submit" value="Submit">
+                </div>
+            
+            </div>
+        </div>
+      <div class="for-appointment">
+            <h2 style="margin-left: 570px; color:white">Appointments</h2>
+            <div class="appointment-section">
+              
+               <form class="appointment-form">
+                  <label for="fullName">Full Name:</label>
+                  <input type="text" id="fullName" name="fullName" placeholder="Enter your full name" required>
+
+                  <label for="contactDetails">Contact Details:</label>
+                  <input type="email" id="contactDetails" name="contactDetails" placeholder="Enter your email address" required>
+
+                  <label for="appointmentDateTime">Appointment Date and Time:</label>
+                  <input type="datetime-local" id="appointmentDateTime" name="appointmentDateTime" required>
+
+                  <label for="appointmentPurpose">Purpose of Appointment:</label>
+                  <input type="text" id="appointmentPurpose" name="appointmentPurpose" placeholder="Enter the purpose of your appointment" required>
+
+                  <label for="additionalInfo">Additional Information:</label>
+                  <textarea id="additionalInfo" name="additionalInfo" rows="3" placeholder="Enter any additional information"></textarea>
+
+                  <input type="submit" value="Submit">
+                </form>
+              
+            
+            </div>
+            </div>
+        </div>
+   
+
+
+    <div>
+
+
+
+ 
+
+</body>
+</html>
